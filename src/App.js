@@ -24,7 +24,9 @@ export default function App() {
 			<div className="container">
 				<div className="row">
 					{data.map((card) => (
-						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+						<div className="col-xs-12 col-sm-12 col-md-6 col-lg-4"
+						key={card.id}
+						>
 							<div className="card">
 								<div className="card-body">
 									<h1 className="text-left name mt-3">{card.name} </h1>
