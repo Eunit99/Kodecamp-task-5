@@ -1,8 +1,8 @@
 {
   "name": "kodecamp-profile",
   "version": "0.1.0",
-  "homepage": "https://eunit99.github.io",
-  "private": true,
+  "homepage": "https://eunit99.github.io/kodecamp-profile",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
